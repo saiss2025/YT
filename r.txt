@@ -1,0 +1,32 @@
+streamlit
+fpdf
+youtube-transcript-api
+googletrans==4.0.0-rc1
+langdetect
+openai 
+google-generativeai  
+
+# YouTube API & HTTP handling
+google-api-python-client>=2.117.0
+httplib2>=0.22.0  # Important to avoid ServerNotFoundError
+
+# AI client (if you're using local LLM via HTTP)
+requests
+
+# Visuals
+wordcloud
+matplotlib
+
+# Data handling
+pandas
+
+# Environment variables
+python-dotenv
+
+
+gtts
+scikit-learn 
+streamlit_chat
+textblob
+
+# python -m textblob.download_corpora
